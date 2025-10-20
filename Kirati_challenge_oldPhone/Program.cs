@@ -44,7 +44,7 @@ namespace MyApp
                 } while (!isValid);
 
                 // decription the word
-                displayAnswer = OldPhonePad(userInput);
+                displayAnswer = OldPhone.OldPhonePad(userInput);
                 Console.WriteLine("Your actual word is : " + displayAnswer);
 
                 // end condition to exit the program
@@ -56,11 +56,16 @@ namespace MyApp
                     Console.WriteLine("Thank you for your time.");
                 }
 
-            };
+            }
 
         }
 
-        public static String OldPhonePad(string input) {
+        
+    }
+    public static class OldPhone
+    {
+        public static String OldPhonePad(string input)
+        {
             string problem = input;
             int counter = 0;
             Stack<char> ansStack = new Stack<char>();
@@ -157,5 +162,6 @@ namespace MyApp
             //Console.WriteLine(result + " : ans test");
             return result;
         }
+
     }
 }
