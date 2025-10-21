@@ -36,5 +36,12 @@ This project is a simple C# class method I created to solve the old phone keypad
 - ``` cd ./Kirati_challenge_oldPhone ```
 - ``` dotnet restore ```
 - ``` dotnet run ```
+## Technologies
+| Category            | Tool         |
+| ------------------- | ------------ |
+| **Language**        | C#           |
+| **Framework**       | .NET 8.0     |
+| **Testing**         | xUnit        |
+| **Version Control** | Git + GitHub |
 
 note: This is my first time implementing something c# language, I hope that it will be comprehenable to whom visted. If there is any flaw in my work, I wish you can point out to help me improve my self. 
