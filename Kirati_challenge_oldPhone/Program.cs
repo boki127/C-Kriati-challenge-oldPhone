@@ -51,17 +51,7 @@ namespace Domain
             Stack<char> ansStack = new Stack<char>();
             string result;
 
-            // case1 : valid normal input
-            if (Regex.IsMatch(problem, @"^[0-9* ]+#$"))
-            {
-            }
-            // case2 : valid blank input
-            else if (problem == "#")
-            {
-                return "";
-            }
-            // case3 : the input not valid go into loop
-            else
+            if (!inputIsValid(problem))
             {
                 return "you input is not valid";
             }
@@ -148,6 +138,27 @@ namespace Domain
             Array.Reverse(chararray);
             result = string.Join("", chararray);
             //Console.WriteLine(result + " : ans test");
+            return result;
+        }
+
+        public static Boolean inputIsValid(String input) {
+            bool result = false;
+            // case1 : valid normal input
+            if (Regex.IsMatch(input, @"^[0-9* ]+#$"))
+            {
+                result = true;
+            }
+            // case2 : valid blank input
+            else if (input == "#")
+            {
+                result = true;
+            }
+            // case3 : the input not valid go into loop
+            else
+            {
+   
+                result = false;
+            }
             return result;
         }
 
