@@ -4,8 +4,9 @@ using System.ComponentModel.Design;
 using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using System.Text.RegularExpressions;
+using Xunit;
 
-namespace MyApp
+namespace Domain
 {
     internal class Program
     {
@@ -39,7 +40,7 @@ namespace MyApp
             }
 
         }
-        
+
     }
     public static class OldPhone
     {
@@ -60,7 +61,8 @@ namespace MyApp
                 return "";
             }
             // case3 : the input not valid go into loop
-            else {
+            else
+            {
                 return "you input is not valid";
             }
 
@@ -99,8 +101,8 @@ namespace MyApp
                     switch (problem[i])
                     {
                         case '*':
-                         
-                            for (int j = 0; j < counter+1; j++)
+
+                            for (int j = 0; j < counter + 1; j++)
                             {
                                 if (ansStack.Count > 0)
                                 {
@@ -109,7 +111,7 @@ namespace MyApp
                             }
                             break;
                         case '0':
-                            for (int j = 0; j < counter+1; j++)
+                            for (int j = 0; j < counter + 1; j++)
                             {
                                 ansStack.Push(' ');
                             }
@@ -149,5 +151,8 @@ namespace MyApp
             return result;
         }
 
+ 
+
     }
+
 }
