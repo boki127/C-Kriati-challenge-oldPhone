@@ -36,6 +36,7 @@ This project is a simple C# class method I created to solve the old phone keypad
 - ``` cd ./Kirati_challenge_oldPhone ```
 - ``` dotnet restore ```
 - ``` dotnet run ```
+- input ex.: ``` 11122 32320*#```
 ## Technologies
 | Category            | Tool         |
 | ------------------- | ------------ |
