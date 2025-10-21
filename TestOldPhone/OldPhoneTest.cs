@@ -10,6 +10,7 @@ namespace TestOldPhone
         [Fact]
         public void OldPhonePad_ExampleCases_True()
         {
+            // Examples from the prompt,problem
             result = (OldPhone.OldPhonePad("33#") == "E") ? true : throw new Exception();
             result = (OldPhone.OldPhonePad("227*#") == "B") ? true : throw new Exception();
             result = (OldPhone.OldPhonePad("4433555 555666#") == "HELLO") ? true : throw new Exception();
@@ -19,9 +20,9 @@ namespace TestOldPhone
         [Fact]
         public void OldPhonePad_InvalidInputCases_True()
         {
-            // not end with #
+            // input not end with #
             result = (OldPhone.OldPhonePad("12345") == "you input is not valid") ? true : throw new Exception();
-            // input with not number
+            // input with non number string
             result = (OldPhone.OldPhonePad("dsadasd#") == "you input is not valid") ? true : throw new Exception();
 
         }
@@ -29,6 +30,7 @@ namespace TestOldPhone
         [Fact]
         public void OldPhonePad_OnlySharpSignCase_True()
         {
+            // input only #
             result = (OldPhone.OldPhonePad("#") == "") ? true : throw new Exception();
         }
 
