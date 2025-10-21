@@ -6,14 +6,14 @@ This project is a simple C# class method I created to solve the old phone keypad
 * Create Validating method for the method's input.
 * Split the process into two parts, by loop through the input and compare the current char and the next char.  
   * Part1 : the chars are the same
-   * Increse the counter to keep track on dupliacated chars.
-   * Modula the counter based on how many times it can be pressed.
+   - Increse the counter to keep track on dupliacated chars.
+   - Modula the counter based on how many times it can be pressed.
   * Part2 : the chars are not the same
-   * Do Push and Pop the char based on the input and counter.
-    * Push : convert the input into int and convert it to char based and push into answer stack.
-     * using this formular for basecase :(char)((int)a + (((int)input * 3) + counter ))
-     * using this formular for 1,7,8,9 cases :(char)((int)(first_char) + counter)
-    * Pop : Pop the last char of the stack (counter) times.  
+   - Do Push and Pop the char based on the input and counter.
+    - Push : convert the input into int and convert it to char based and push into answer stack.
+     - using this formular for basecase :(char)((int)a + (((int)input * 3) + counter ))
+     - using this formular for 1,7,8,9 cases :(char)((int)(first_char) + counter)
+    - Pop : Pop the last char of the stack (counter) times.  
 * Convert Stack into Array then reverse and return the Array as one string
 * Create an simple demo console app to demo the method.
 * Create xunit testcases for the classs method
