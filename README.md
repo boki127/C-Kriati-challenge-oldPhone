@@ -28,7 +28,7 @@ This project is a simple C# class method I created to solve the old phone keypad
 
 ## How to Install and Run This Project
 1. Clone the repository
-- ``` git clone <repository-url> ```
+- ``` git clone https://github.com/boki127/C-Kriati-challenge-oldPhone.git ```
 2. To run the test project
 - ``` cd ./TestOldPhone ```
 - ``` dotnet test ```
