@@ -28,15 +28,15 @@ This project is a simple C# class method I created to solve the old phone keypad
 
 ## How to Install and Run This Project
 1. Clone the repository
-- ``` git clone https://github.com/boki127/C-Kriati-challenge-oldPhone.git ```
+- ```git clone https://github.com/boki127/C-Kriati-challenge-oldPhone.git```
 2. To run the test project
-- ``` cd ./TestOldPhone ```
-- ``` dotnet test ```
+- ```cd ./TestOldPhone```
+- ```dotnet test```
 3. To run the demo
-- ``` cd ./Kirati_challenge_oldPhone ```
-- ``` dotnet restore ```
-- ``` dotnet run ```
-- input ex.: ``` 11122 32320*#```
+- ```cd ./Kirati_challenge_oldPhone```
+- ```dotnet restore```
+- ```dotnet run```
+- input ex.: ```4433555 555666#```
 ## Technologies
 | Category            | Tool         |
 | ------------------- | ------------ |
