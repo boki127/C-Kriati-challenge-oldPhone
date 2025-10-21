@@ -20,8 +20,10 @@ This project is a simple C# class method I created to solve the old phone keypad
    * testcase1 : Examples from the prompt
    * testcase2 : Input invalid input (1. no sharp sign, 2. input is not in 0-9," ",#,*)
    * testcase3 : Input only #
-   * testcase4 : Input 
-   * testcase5 :  
+   * testcase4 : Input '2' button 4 times
+   * testcase5 : Inout '0' or space word
+   * testcase6 : Delete more than the lenght of the word
+   * testcase7 : Input '7' and '9' button 4 times 
 
 
 
