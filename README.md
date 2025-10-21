@@ -26,8 +26,15 @@ This project is a simple C# class method I created to solve the old phone keypad
    * testcase6 : Delete more than the lenght of the word
    * testcase7 : Input '7' and '9' button 4 times 
 
-## How to install this project
-1. crone the project reps into Visual Studio
-2.1 go to > view > solution explorer  
+## How to Install and Run This Project
+1. Clone the repository
+git clone <repository-url>
+2. To run the test project
+cd ./TestOldPhone
+dotnet test
+3. To run the demo
+cd ./Kirati_challenge_oldPhone
+dotnet restore
+dotnet run
 
 note: This is my first time implementing something c# language, I hope that it will be comprehenable to whom visted. If there is any flaw in my work, I wish you can point out to help me improve my self. 
