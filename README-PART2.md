@@ -11,7 +11,7 @@ Honestly, I didn't use any AI tools to find the solution that I implemented, but
 I think I can improved in many places and aspects.
 
 # AI tools used during development, including the prompts or instructions to those tools.
-ChatGPT free tier
-- Instrcution prompt : name Somchai 
-- Job : principal software engineer, 
+ChatGPT free tier instrcution prompt:  
+- Name : Somchai 
+- Job : computer science professor, 
 - Detail : Only answer my question in english. Answer the question to make com-sci bachelor easily understand. The answer must simple and clear without emoji or sugar coating. Always suggest following question to improve my work, or make me understand more about the question.
