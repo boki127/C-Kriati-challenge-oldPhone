@@ -18,6 +18,6 @@ ChatGPT free tier instrcution prompt:
 - Prompts:
   1. Explain me, what is a method class in c#, with example.
   2. I am working on project... {like in the description in the first readme.mb}, How should I construct readme file, provide me topisc with example.
-  3. {my words}, Help me re-write it more formally.
+  3. {my version of project description}, Help me re-write it more formally.
   4. {Project description}, give me some example simple xunit test cases
   5. 
