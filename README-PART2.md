@@ -8,7 +8,7 @@ Honestly, I didn't use any AI tools to find the solution that I implemented, but
 6. To help me properly construct readme.md file, like what I should and should not put in the file.
 
 # How I can improved my current implementation using AI 
-I think I can improved in many places and aspects. 
+I think I can improved in many places and aspects. for example, using the AI to assist me during my implementation process.
 
 # AI tools used during development, including the prompts or instructions to those tools.
 ChatGPT free tier instrcution prompt:  
