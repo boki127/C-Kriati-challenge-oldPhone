@@ -17,7 +17,7 @@ If I were to use AI actively during the implementation process, I could improve 
 - Enhancing documentation to make the explanation of the logic clearer for readers.
 - Automating code review for naming consistency, readability, and style.
 
-# AI tools used during development, including the prompts or instructions to those tools.
+# AI tools used during development in the first phrase, including the prompts or instructions to those tools.
 Tool : ChatGPT (Free Tier)
 Instrcution Prompt :  
 ```
