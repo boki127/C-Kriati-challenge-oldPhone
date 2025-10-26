@@ -1,8 +1,10 @@
 ## TOPIC : How I used AI tools during my workflow
-Honestly, I didn't use any AI tools to find the solution that I implemented, but using it to enhance other aspects of the project. Such as:
-1. To make me familiar with the C# language, .net framwork, and xunit test framework.
-2. To understand some terms in the problem prompt properly, to maked me understand more about the requirement.
-3. To ask about syntaxes that I know the logic but cannot implement the code properly like Stack and Array in C#.
+Honestly, I did not use any AI tools to generate or find the solution I implemented.
+However, I did use AI to enhance other aspects of the project, mainly for learning and support purposes.
+Here’s how AI helped me during development:
+1. Learning and Familiarization : To get familiar with the C# language, .net framework, and xunit test framework.
+2. Clarifying Requirements : To better understand some terms in the problem prompt properly, to ensure that I fully understand the requirement.
+3. Syntax Assistance : To ask about syntaxes that I know the logic but cannot implement the code properly like Stack and Array in C#.
 4. To remind me aspects of the OOP knowledge like types of the class, structure of the language such as Namespace, Class, and Keywords.
 5. To help me properly construct xunit test.
 6. To help me properly construct readme.md file, like what I should and should not put in the file.
