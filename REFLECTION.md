@@ -4,10 +4,10 @@ However, I did use AI to enhance other aspects of the project, mainly for learni
 Here’s how AI helped me during development:
 1. Learning and Familiarization : To get familiar with the C# language, .net framework, and xunit test framework.
 2. Clarifying Requirements : To better understand some terms in the problem prompt properly, to ensure that I fully understand the requirement.
-3. Syntax Assistance : To ask about syntaxes that I know the logic but cannot implement the code properly like Stack and Array in C#.
-4. To remind me aspects of the OOP knowledge like types of the class, structure of the language such as Namespace, Class, and Keywords.
-5. To help me properly construct xunit test.
-6. To help me properly construct readme.md file, like what I should and should not put in the file.
+3. Syntax Assistance : To confirm how to implement structures (like Stack or Array) when I already knew the logic but needed syntax reminders.
+4. OOP and C# Structure Review : To refresh my understanding of OOP concepts (class types, namespaces, and keywords) in C#.
+5. Testing Guidance : To help me properly construct xUnit test cases.
+6. Documentation and Readability : To help me properly construct readme.md file, what to include and how to organize the file.
 
 # How I can improved my current implementation using AI 
 I think I can improved in many places and aspects. for example, using the AI to assist me during my implementation process.
